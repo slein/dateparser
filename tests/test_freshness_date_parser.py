@@ -179,6 +179,7 @@ class TestFreshnessDateDataParser(BaseTestCase):
         param('1 rok, 1 měsíc, 1 týden, 1 den, 1 hodina, 1 minuta před',
               ago={'years': 1, 'months': 1, 'weeks': 1, 'days': 1, 'hours': 1, 'minutes': 1},
               period='day'),
+        param('2 minuty, 15 vteřin', ago={'minutes': 2, 'seconds': 15}, period='day'),
 
         # Spanish dates
         param('anteayer', ago={'days': 2}, period='day'),
@@ -1152,6 +1153,7 @@ class TestFreshnessDateDataParser(BaseTestCase):
         # cs
         param("za 12 rok", in_future={'years': 12}, period='year'),
         param("za 10 den 5 hodin", in_future={'days': 10, 'hours': 5}, period='day'),
+        param("v 10 minut", in_future={'minutes': 10}, period='day'),
         # cy
         param("ymhen 15 mis", in_future={'months': 15}, period='month'),
         param("ymhen 10 munud 8 eiliad", in_future={'minutes': 10, 'seconds': 8}, period='day'),
