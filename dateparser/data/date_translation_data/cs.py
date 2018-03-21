@@ -76,7 +76,8 @@ info = {
     "wednesday": [
         "středa",
         "st",
-        "Stř"
+        "Stř",
+        "Středu"
     ],
     "thursday": [
         "čtvrtek",
@@ -91,12 +92,14 @@ info = {
     "saturday": [
         "sobota",
         "so",
-        "Sob"
+        "Sob",
+        "Sobotu"
     ],
     "sunday": [
         "neděle",
         "ne",
-        "Ned"
+        "Ned",
+        "Neděli"
     ],
     "am": [
         "dop"
@@ -118,7 +121,8 @@ info = {
     "week": [
         "týden",
         "týd",
-        "týdnů"
+        "týdnů",
+        "týdny"
     ],
     "day": [
         "den",
@@ -130,17 +134,23 @@ info = {
         "h",
         "hodin",
         "hodiny",
+        "hodinu",
         "hodinami"
     ],
     "minute": [
         "minuta",
         "min",
-        "minut"
+        "minut",
+        "minuty"
     ],
     "second": [
         "sekunda",
         "s",
-        "sekundy"
+        "sekundy",
+        "sekund",
+        "vteřina",
+        "vteřin",
+        "vteřiny"
     ],
     "relative-type": {
         "1 year ago": [
@@ -289,6 +299,7 @@ info = {
         "před"
     ],
     "in": [
-        "ve"
+        "ve",
+        "v"
     ]
 }
