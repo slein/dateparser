@@ -4,24 +4,36 @@ sentence_splitter_group : 1
 
 month:
     - maanden
+    - maand
 week:
     - weken
+    - week
 day:
+    - dag
     - dagen
+
 minute:
     - minuten
+    - minuut
 second:
     - seconden
-
+    - seconde
 ago:
     - geleden
 in:
     - in
-
+    - over
+    - binnen
+    
 relative-type:
     1 year ago:
+        - vorig jaar
         - vorige jaar
+    1 day ago:
+        - gisteren
     2 day ago:
         - eergisteren
+    in 1 day:
+        - morgen
     in 2 day:
         - overmorgen
